@@ -1,0 +1,161 @@
+* { 
+    box-sizing: border-box;
+}
+    
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background: #FCF6F5FF;
+}
+    
+.card {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: #fff;
+    border-bottom: 1px solid #606060FF;
+    transition: all .5s;
+    flex-grow: 1;
+}
+
+.card img {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: all .5s;
+}
+
+.card img:hover {
+    transform: scale(1.2) rotate(360deg);
+}
+
+.skills li {
+    border-radius: 6px;
+    display: inline-block;
+    background: #FC766AFF;;
+    color: white;
+    padding: 5px 10px;
+    margin: 2px;
+}
+
+.skills li:nth-child(odd) {
+    background: #5B84B1FF;
+}
+
+fieldset {
+    font-size: 16px;
+    margin: 30px;
+    padding: 20px 40px 40px;
+    border: 1px solid #343837;
+    max-width: 400px;
+    margin: 0 auto;
+    outline: none;
+}
+
+form input,
+form textarea,
+button {
+    font-size: 16px;
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    margin: 10px 0;
+    outline: none;
+    position: relative;
+    border-radius: 6px;
+    border: 1px solid #343837;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #D8DCD6;
+}
+
+footer {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    border-top: 1px solid black;
+}
+
+footer a {
+    text-decoration: none;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    color: #707070;
+    font-size: 1.2rem;
+    padding: 30px 0;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+a.social {
+    display: inline-block;
+    text-indent: -9999px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    opacity: .4;
+    transition: all .5s;
+}
+
+a.twitter {
+    background-image: url(https://res.cloudinary.com/oluwoledada/image/upload/v1587035408/Personal%20Profile%20Page/twitter_ifbv6v.png);
+}
+
+a.linkedin {
+    background-image: url(https://res.cloudinary.com/oluwoledada/image/upload/v1587035402/Personal%20Profile%20Page/linkedin_dcvrd5.png);
+}
+
+a.github {
+    background-image: url(https://res.cloudinary.com/oluwoledada/image/upload/v1587035393/Personal%20Profile%20Page/github_xxce8u.png);
+}
+
+a.social:hover {
+    opacity: 1;
+}
+  
+@media screen and (min-width: 720px) {
+    
+    .wrapper {
+        display: flex; 
+        flex-wrap: wrap;
+        max-width: 1200px;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+  
+    main {
+      padding-top: 20px;
+    }
+  
+    main p {
+      line-height: 1.6em;
+    }
+
+    fieldset {
+        font-size: 16px;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+  
+    footer {
+      font-size: 1.3em;
+      max-width: 1200px;
+      margin: 40px auto;
+    }
+  
+}
