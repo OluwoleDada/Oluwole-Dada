@@ -1,5 +1,4 @@
-# OluwoleDada
-StartNG 2020 GIT Task 1
+# Start.ng 2.0 Details 
 
 Full name: Oluwole Dada 
 
@@ -7,6 +6,6 @@ Email address: dadaoluwafemitaiwo@gmail.com
 
 Slack username: OluwoleDada 
 
-Track: Frontend 
+Track: Frontend Web Development 
 
 Courses: HTML, CSS and JavaScript
